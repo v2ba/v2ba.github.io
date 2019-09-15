@@ -1,0 +1,26 @@
+﻿<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+</head>
+
+<body onload="javascript:dogo();">
+<script> 
+//随机函数 注意数字顺序
+url = new Array(1); 
+url[0] = 'https://www.v2ba.space'
+url[1] = 'https://github.com/v2ba/v2ba#v2ba'
+url[2] = 'https://github.com/v2ba/v2ba/wiki/v2ba最新地址#v2ba最新地址'
+
+urlx = Math.floor(Math.random() * url.length); 
+ 
+document.write('<a id="go" href="'+url[urlx]+'">正在载入v2ba旗下网站</a>');
+go.click();
+ 
+</script>
+</body>
+
+</html>
